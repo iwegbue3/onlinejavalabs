@@ -1,25 +1,27 @@
 Answer the following questions:
 
 1.) Using the command line, how do you:
-    a. change directories?
-    b. list the contents of a folder?
-    c. print the path of the current directory?
-    d. move a file from one location to the another?
-    e. copy a file from one location to another?
-    f. create a file?
-    g. create a folder?
-    h. delete a file?
-    i. delete a folder?
-    j. print the contents of a file?
-    k. edit the contents of a file?
+    a. change directories?  issue the command cd
+    b. list the contents of a folder?   ls [-args]
+    c. print the path of the current directory?     pwd
+    d. move a file from one location to the another? mv [-args] [filename] [src] [des]
+    e. copy a file from one location to another? cp [-args] filename [src] [des]
+    f. create a file? There are several ways. You can use vim, vi, text editor
+    g. create a folder? mkdir [-args] [name of directory]
+    h. delete a file? rm [name of file]
+    i. delete a folder? rm [-args] [name of folder]
+    j. print the contents of a file?    more, vim, cat, vi, tail
+    k. edit the contents of a file?     vim, vi, use a text editor
 
-2.) Why do we use git and Github?
+2.) Why do we use git and Github? Git is a version control system, it is used to track, manage and monitor changes to code files.
+Github is a software platform which can be viewed as a repository used by sofware developers to host and review codes and manage projects
 
-3.) What is the general flow of git?
+3.) What is the general flow of git? Add something ->> Commit Something ->> Push Something to the remote repository
 
-4.) What is the purpose of adding a remote to a local git repository?
+4.) What is the purpose of adding a remote to a local git repository? The purpose is to connect your local repository to a remote server
+to enable the developer push updates and changes to the remote repository
 
-5.) How do you print a message to the console?
+5.) How do you print a message to the console? you can print a message to the console using the command System.out.println("message to display")
 
 6.) Where does a program begin its execution?
 
@@ -27,7 +29,7 @@ Answer the following questions:
 
 8.) What is the idea of variable scope?
 
-9.) What are semicolons used for?
+9.) What are semicolons used for?   Semi colons are used to end a statemnt in Java
 
 10.) What are lines of code indented? When should a line be indented?
 
